@@ -8,9 +8,9 @@
 
 영상 보기: <https://www.youtube.com/watch?v=BlB26NXmofs>
 
-추천 👉 유지보수하기 쉬운 CSS 전략(슬라이드) https://mytory.net/archives/13185
+추천 👉 [유지보수하기 쉬운 CSS 전략(슬라이드)](https://mytory.net/archives/13185)
 
-😀 안녕하세요. 웹 개발자 안형우입니다.
-📌 블로그 https://mytory.net
-📌 트위터 https://twitter.com/mytory
+😀 안녕하세요. 웹 개발자 안형우입니다.  
+📌 블로그 https://mytory.net  
+📌 트위터 https://twitter.com/mytory  
 📌 페이스북 https://facebook.com/mytorydev
