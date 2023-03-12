@@ -26,6 +26,10 @@
     color: #31227c;
 }
 
+.stacked-form__title--right {
+    text-align: right;
+}
+
 .stacked-form__label {
     display: block;
     margin-bottom: 5px;

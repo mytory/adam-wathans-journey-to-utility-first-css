@@ -11,3 +11,7 @@
 .actions-list__item:last-child {
     margin-right: 0;
 }
+
+.actions-list--left {
+    text-align: left;
+}
