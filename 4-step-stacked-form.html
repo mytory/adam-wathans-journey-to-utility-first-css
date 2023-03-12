@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,37 @@
     <title>Stacked Form</title>
     <link rel="stylesheet" href="4-step-stacked-form.css">
     <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="card.css">
 </head>
+
 <body>
-    <form class="stacked-form  stacked-form--card" action="#">
-        <div class="stacked-form__section">
-            <h2 class="stacked-form__title">기본 정보</h2>
-            <label class="stacked-form__label" for="item1">항목1</label>
-            <input class="stacked-form__text-input" type="text" name="item1" id="item1">
+    <div class="card">
+        <form class="stacked-form" action="#">
+            <div class="stacked-form__section">
+                <h2 class="stacked-form__title">기본 정보</h2>
+                <label class="stacked-form__label" for="item1">항목1</label>
+                <input class="stacked-form__text-input" type="text" name="item1" id="item1">
 
-            <label class="stacked-form__label" for="item2">항목2</label>
-            <input class="stacked-form__text-input" type="text" name="item2" id="item2">
-        </div>
+                <label class="stacked-form__label" for="item2">항목2</label>
+                <input class="stacked-form__text-input" type="text" name="item2" id="item2">
+            </div>
 
-        <div class="stacked-form__section">
-            <h2 class="stacked-form__title">상세 정보</h2>
-            <label class="stacked-form__label" for="item3">항목3</label>
-            <input class="stacked-form__text-input" type="text" name="item3" id="item3">
-            
-            <label class="stacked-form__label" for="item4">항목4</label>
-            <input class="stacked-form__text-input" type="text" name="item4" id="item4">
-        </div>
+            <div class="stacked-form__section">
+                <h2 class="stacked-form__title">상세 정보</h2>
+                <label class="stacked-form__label" for="item3">항목3</label>
+                <input class="stacked-form__text-input" type="text" name="item3" id="item3">
 
-        <div class="stacked-form__section">
-            <button class="btn btn--primary">제출</button>
-        </div>
-    </form>
+                <label class="stacked-form__label" for="item4">항목4</label>
+                <input class="stacked-form__text-input" type="text" name="item4" id="item4">
+            </div>
+
+            <div class="stacked-form__section  stacked-form__footer">
+                <button class="stacked-form__footer-item btn btn--secondary  ">취소</button>
+                <!-- 살짝 공백 필요 -->
+                <button class="stacked-form__footer-item btn btn--primary">제출</button>
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
