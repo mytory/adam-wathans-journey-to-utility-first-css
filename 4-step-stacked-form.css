@@ -11,6 +11,14 @@
     margin-right: auto;
 }
 
+.stacked-form--card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    background-color: #f1f1f1;
+}
+
 .stacked-form__section {
     margin-bottom: 30px;
 }
