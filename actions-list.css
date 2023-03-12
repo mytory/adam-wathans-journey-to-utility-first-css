@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-.action-list {
+.actions-list {
     text-align: right;
 }
 
-.action-list__item {
+.actions-list__item {
     margin-right: 1rem;
 }
 
-.action-list__item:last-child {
+.actions-list__item:last-child {
     margin-right: 0;
 }
