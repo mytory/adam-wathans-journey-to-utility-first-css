@@ -38,15 +38,3 @@
 .stacked-form__text-input {
     width: 100%;
 }
-
-.stacked-form__footer {
-    text-align: right;
-}
-
-.stacked-form__footer-item {
-    margin-right: 1rem;
-}
-
-.stacked-form__footer-item:last-child {
-    margin-right: 0;
-}

@@ -10,15 +10,3 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
 }
-
-.header-bar__actions {
-    text-align: right;
-}
-
-.header-bar__actions-item {
-    margin-right: 1rem;
-}
-
-.header-bar__actions-item:last-child {
-    margin-right: 0;
-}
