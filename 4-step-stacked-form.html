@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="header-bar.css">
     <link rel="stylesheet" href="actions-list.css">
+    <link rel="stylesheet" href="utilities.css">
 </head>
 
 <body>
     <header class="header-bar">
         <h2 class="header-bar__title">새 상품</h2>
-        <div class="actions-list  actions-list--left">
+        <div class="actions-list">
             <button class="actions-list__item btn btn--secondary">취소</button>
             <button class="actions-list__item btn btn--primary">저장</button>
         </div>
@@ -25,7 +26,7 @@
     <div class="card">
         <form class="stacked-form" action="#">
             <div class="stacked-form__section">
-                <h2 class="stacked-form__title  stacked-form__title--right">기본 정보</h2>
+                <h2 class="stacked-form__title  align-right">기본 정보</h2>
                 <label class="stacked-form__label" for="item1">항목1</label>
                 <input class="stacked-form__text-input" type="text" name="item1" id="item1">
 
@@ -42,7 +43,7 @@
                 <input class="stacked-form__text-input" type="text" name="item4" id="item4">
             </div>
 
-            <div class="stacked-form__section  actions-list">
+            <div class="stacked-form__section  actions-list  align-right">
                 <button class="actions-list__item btn btn--secondary  ">취소</button>
                 <!-- 살짝 공백 필요 -->
                 <button class="actions-list__item btn btn--primary">제출</button>

@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 .actions-list {
-    text-align: right;
 }
 
 .actions-list__item {
@@ -10,8 +9,4 @@
 
 .actions-list__item:last-child {
     margin-right: 0;
-}
-
-.actions-list--left {
-    text-align: left;
 }
