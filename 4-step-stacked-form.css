@@ -39,12 +39,3 @@
 .stacked-form__text-input {
     width: 100%;
 }
-
-.stacked-form__button {
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: #31227c;
-    padding: 5px 20px;
-    font-size: 1.2rem;
-}
