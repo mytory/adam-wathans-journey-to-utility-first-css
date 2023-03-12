@@ -7,3 +7,7 @@
 .align-right {
     text-align: right;
 }
+
+.mar-r-sm {
+    margin-right: 1rem;
+}
