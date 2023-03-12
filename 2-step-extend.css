@@ -1,0 +1,36 @@
+.container {
+  max-width: 350px;
+  margin: 2rem auto;
+}
+
+.author-bio, .article-preview {
+  background-color: white;
+  border: 1px solid hsl(0deg, 0%, 85%);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.author-bio__image, .article-preview__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.author-bio__content, .article-preview__content {
+  padding: 1rem;
+}
+
+.author-bio__name, .article-preview__title {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.author-bio__body, .article-preview__body {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=2-step-extend.css.map */
